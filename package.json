@@ -1,6 +1,6 @@
 {
   "name": "sp-koa-views",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Template rendering middleware for koa, extend: can use multi views path.",
   "main": "src/index.js",
   "scripts": {

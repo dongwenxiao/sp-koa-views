@@ -45,6 +45,7 @@ function viewsMiddleware(path, ref) {
                 for (var i = 0; i < paths.length; i++) {
                     var path = paths[i]
                     if (path) {
+                        
                         return getPaths(path, relPath, extension)
                             .then(function(paths) {
                                 var state = Object.assign(locals, options, ctx.state || {})
@@ -120,8 +121,6 @@ function getPaths(abs, rel, ext) {
                 return getPaths(abs, (rel + "." + ext), ext)
             }
 
-
-            console.log('eeeeeeeeee')
             throw e
         })
 }
