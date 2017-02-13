@@ -2,7 +2,7 @@
   "name": "koa-views",
   "version": "5.2.0",
   "description": "Template rendering middleware for koa",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "prepublish": "mkdirp lib && buble -i src -o lib",
     "lint": "eslint .",
